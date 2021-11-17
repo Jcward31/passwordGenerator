@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background: crimson;
+    font-family:sans-serif
+}
+
+.container{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    text-align: center;
+    margin-top: 20%;
+    padding: 20px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.input{
+margin: 40px;
+}
+
+.input input{
+padding: 10px;
+font-size: 20px;
+width: 20em;
+
+}
+
+ button:nth-child(2){
+  margin-left: 10em;
+}
