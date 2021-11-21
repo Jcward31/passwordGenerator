@@ -1,39 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-body{
-    box-sizing: border-box;
-    background: crimson;
-    font-family:sans-serif
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    max-width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-    background: white;
-    text-align: center;
-    margin-top: 20%;
-    padding: 20px;
+body {
+  font-family: sans-serif;
+  background-color: #f9fbfd;
 }
 
-h1{
-    font-size: 35px;
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.input{
-margin: 40px;
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: hsl(206, 17%, 28%);
 }
 
-.input input{
-padding: 10px;
-font-size: 20px;
-width: 20em;
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
+  }
 
-}
 
- button:nth-child(2){
-  margin-left: 10em;
-}
