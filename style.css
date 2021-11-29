@@ -1,138 +1,109 @@
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+#introPage {
+    display: block;
 }
 
-html,
-body,
-.wrapper {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+#question1 {
+    display: none;
 }
 
-body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+#question2 {
+    display: none;
 }
 
-.wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+#question3 {
+    display: none;
+}
+
+#question4 {
+    display: none;
+}
+
+#question5 {
+    display: none;
+}
+
+#question6 {
+    display: none;
+}
+
+#question7 {
+    display: none;
+}
+
+#question8 {
+    display: none;
+}
+
+#question9 {
+    display: none;
+}
+
+#question10 {
+    display: none;
+}
+
+#finished {
+    display: none;
+}
+
+.heading1 {
+  position:fixed;
+  left: 10px;
+}
+
+.heading2 {
+    position: fixed;
+    top: 35px;
+    right: 55px;
+    font-size: 20px;
+    margin-right: 15px;
+    color: purple;
 }
 
 header {
-  text-align: center;
-  padding: 20px;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+    margin: 20px;
+    padding: 25px;
+    margin-top: 25px;
+
 }
 
-.card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
-  font-size: 18px;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 30px 40px;
+.quizBody {
+    display: flex;
+    justify-content: center;
+    
 }
 
-.card-header::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
+#Highscores {
+    display: none;
 }
 
-.card-body {
-  min-height: 100px;
+#introPage, #question1, #question2, #question3, #question4,
+#question5, #question6, #question7, #question8,
+#question9, #question10, #finished, #Highscores {
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    color:purple;
+    width: 95%;
 }
 
-.card-footer {
-  text-align: center;
+h1, h2 {
+    color: purple;
 }
 
-.card-footer::before {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
+button {
+    background-color: rgb(190, 185, 185);
+    font-size: 18px;
+    color: purple;
 }
 
-.card-footer::after {
-  content: " ";
-  display: block;
-  clear: both;
+
+button:hover {
+    background-color: purple;
+    color:rgb(190, 185, 185);
 }
 
-.btn {
-  border: none;
-  background-color: hsl(360, 91%, 36%);
-  border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
-  color: hsl(0, 0%, 100%);
-  display: inline-block;
-  font-size: 22px;
-  line-height: 22px;
-  margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
-  text-align: center;
-  cursor: pointer;
-}
-
-button[disabled] {
-  cursor: default;
-  background: #c0c7cf;
-}
-
-.float-right {
-  float: right;
-}
-
-#password {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  display: block;
-  width: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 85px;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
-  resize: none;
-  overflow: hidden;
-}
-
-@media (max-width: 690px) {
-  .btn {
-    font-size: 1rem;
-    margin: 16px 0px 0px 0px;
-    padding: 10px 15px;
-  }
-
-  #password {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .btn {
-    font-size: 0.8rem;
-  }
+h1 {
+    font-size: 35px;
 }
